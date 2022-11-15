@@ -1,0 +1,14 @@
+what is jar(java Archive) file?
+
+-> All .class files stored in one zip file is called jarfile.
+which jar file can be send to anywhere and also deploy in servers.
+
+what war(web application archive) file?
+
+-> all web applications files like html,css,javscripts,jsp etc stored in one zipfile is called warfile.
+-> one war file is equal to one web application.
+
+what is ear(enterprise archive) file?
+
+-> it store all application html,css,.class files, etc.not like above only web application file.
+  it store all files in zip is called ear file.
