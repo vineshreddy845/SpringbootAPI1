@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
+
 @CrossOrigin(origins= {"*"}, maxAge = 4800, allowCredentials = "false")// we add these annotation because . backend data is not allowing to display in webpage of angular. the issue is No 'Access-Control-Allow-Origin' cor's.
 @RestController
 @RequestMapping("/api")
@@ -67,6 +69,27 @@ public class Contollers {
          services1.del();
     }
 
+    //http://localhost:8080/api/findbyids/1
+
+    @GetMapping("/findbyids/{id}")
+
+    public Optional<Employee> emp11(@PathVariable(value="id") Long id)
+    {
+        return services1.emp11(id);
+    }
+    //http://localhost:8080/api/findall
+    @GetMapping("/findall")
+
+    public List<Employee>emp12(Employee employee)
+    {
+        return services1.emp12(employee);
+    }
+    //http://localhost:8080/api/deletebyid
+    @DeleteMapping("/deletebyid/{idvalue}")
+    public void deletebyid(@PathVariable(value="idvalue") Long id)
+    {
+          services1.deletebyids(id);
+    }
 
 }
 

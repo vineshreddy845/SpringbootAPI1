@@ -5,9 +5,9 @@ import com.example.SpringbootAPI1.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class Services {
@@ -54,5 +54,20 @@ public class Services {
 
     public void del() {
          employeeRepository.deleteAll();
+    }
+
+
+
+    public Optional<Employee> emp11(Long id) {
+        return employeeRepository.findById(id);
+    }
+
+    public List<Employee> emp12(Employee employee) {
+        return employeeRepository.findAll();
+    }
+
+    public void deletebyids(Long id) {
+
+        employeeRepository.deleteById(id);
     }
 }
