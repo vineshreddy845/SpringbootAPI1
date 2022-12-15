@@ -30,3 +30,8 @@ difference between realtional database and non-realtional database?
 ->to build jar file. we write ---mvn clean install-- in command promopt. it will build jar file sucessfully.
 then we deploy in to the servers.
 ->where you can find jar file cretaed in Target folder.
+
+
+******<finalname>whaterver</finalname>*****
+if you give finalname in pom.xml before build tag.(example see in springbootwithdocker application).
+then jar file will be created with that name.
