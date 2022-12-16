@@ -13,25 +13,27 @@ what is ear(enterprise archive) file?
 -> it store all application html,css,.class files, etc.not like above only web application file.
   it store all files in zip is called ear file.
 
-
+---------------------------------------------------------------------------------------------------------------------------------
 
 -> there are two  types of database . realtional database and non- realtional database.
-
+---------------------------------------------------------------------------------------------------------------------------------------
 what are the realtional databases?
 ->Some of the most well-known RDBMSs include MySQL, PostgreSQL, MariaDB, Microsoft SQL Server, and Oracle Database.
+-> where sql databases stores data in table-form
 
 what are the non-realtional databases?
 ->NoSQL or non-relational databases examples: MongoDB, Apache Cassandra, Redis, Couchbase and Apache HBase.
-
+-> where non-sql databases stores data in differentways.
+->NoSQL database technology stores information in "JSON documents" instead of columns and rows used by relational databases.
 difference between realtional database and non-realtional database?
 ->
 
-
+-----------------------------------------------------------------------------------------------------------------------------------------
 ->to build jar file. we write ---mvn clean install-- in command promopt. it will build jar file sucessfully.
 then we deploy in to the servers.
 ->where you can find jar file cretaed in Target folder.
 
-
+-----------------------------------------------------------------------------------------------------------------------------
 ******<finalname>whaterver</finalname>*****
 if you give finalname in pom.xml before build tag.(example see in springbootwithdocker application).
 then jar file will be created with that name.
