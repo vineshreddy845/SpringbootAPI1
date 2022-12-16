@@ -43,3 +43,7 @@ then jar file will be created with that name.
 Remember always modelclass or pojoclass(model) have data object of  sql or non-sql database.
 example. see we write datatypes and varibles.that matches to sql or non-sql database.
 where repository class will connect to model class.  curd operations are done by repository class.
+
+-------------------------------------------------------------------------------------------------------
+In order after returning value To print in web page. we should use toString() method complusary.
+otherwise use @Data annotation of lombok.
