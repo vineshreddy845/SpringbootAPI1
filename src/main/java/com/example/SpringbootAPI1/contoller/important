@@ -37,3 +37,9 @@ then we deploy in to the servers.
 ******<finalname>whaterver</finalname>*****
 if you give finalname in pom.xml before build tag.(example see in springbootwithdocker application).
 then jar file will be created with that name.
+
+
+------------------------------------------------------------------------------------------------
+Remember always modelclass or pojoclass(model) have data object of  sql or non-sql database.
+example. see we write datatypes and varibles.that matches to sql or non-sql database.
+where repository class will connect to model class.  curd operations are done by repository class.
