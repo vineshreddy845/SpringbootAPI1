@@ -80,6 +80,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>springboot-ap-icicd-docker</finalName>
 	</build>
 
 </project>
