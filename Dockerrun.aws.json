@@ -1,0 +1,14 @@
+{
+  "AWSEBDockerrunVersion":"1",
+  "Image":{
+    "Name":"vineshjalla/springboot-ap-icicd-docker",
+    "Update": "true"
+  },
+
+  "Ports":[
+    {
+      "ContainerPort":5000,
+      "HostPort":9000
+    }
+  ]
+}
